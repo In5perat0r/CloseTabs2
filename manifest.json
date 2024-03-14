@@ -1,0 +1,30 @@
+{
+    "name": "Close Tabs To",
+    "description": "This Chrome Extension Closed Tabs to the Left or Right, when you Clicked the Arrow to the Direction.",
+    "version": "1.0",
+    "permissions": ["tabs"],
+    "action": {
+        "default_title": "Close Tabs To",
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "resources/arrowLogo16.png",
+            "32": "resources/arrowLogo32.png",
+            "48": "resources/arrowLogo48.png",
+            "64": "resources/arrowLogo64.png",
+            "128": "resources/arrowLogo128.png",
+            "256": "resources/arrowLogo256.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "resources/arrowLogo16.png",
+        "32": "resources/arrowLogo32.png",
+        "48": "resources/arrowLogo48.png",
+        "64": "resources/arrowLogo64.png",
+        "128": "resources/arrowLogo128.png",
+        "256": "resources/arrowLogo256.png"
+    },
+    "manifest_version": 3
+}
