@@ -1,0 +1,28 @@
+:root {
+    --item-size: 30px;
+    --item-margin: 10px;
+}
+
+body {
+    background-color: black;
+    height: calc(var(--item-size) + (2 * var(--item-margin)));
+    margin: 0;
+    display: flex;
+    outline: solid 2px hsl(0, 100%, 25%);
+    border: solid 5px hsl(0,100%,50%);
+    background-image: linear-gradient(0deg, hsl(300, 100%, 50%) 0%, hsl(300, 100%, 37%) 100%);
+    outline-offset: -5px;
+}
+
+.svg {
+    width: var(--item-size);
+    aspect-ratio: 1 / 1;
+}
+
+#arrowLeft {
+    margin: var(--item-margin);
+}
+
+#arrowRight {
+    margin: var(--item-margin) var(--item-margin) var(--item-margin) 0;
+}
