@@ -15,9 +15,6 @@
             "256": "resources/arrowLogo256.png"
         }
     },
-    "background": {
-        "service_worker": "background.js"
-    },
     "icons": {
         "16": "resources/arrowLogo16.png",
         "32": "resources/arrowLogo32.png",
@@ -25,6 +22,9 @@
         "64": "resources/arrowLogo64.png",
         "128": "resources/arrowLogo128.png",
         "256": "resources/arrowLogo256.png"
+    },
+    "background": {
+        "service_worker": "background.js"
     },
     "manifest_version": 3
 }
